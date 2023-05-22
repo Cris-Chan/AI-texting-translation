@@ -21,8 +21,8 @@ const openai = new OpenAIApi(configuration);
 
 // User data
 const users = {
-    "+13252011334": "English",
-    "+13252613224": "Mexico Spanish"
+    '$(process.env.USER1_NUMBER)': "English",
+    "$(process.env.USER1_NUMBER)": "Mexico Spanish"
 }
 
 let context = [];
