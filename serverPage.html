@@ -1,0 +1,59 @@
+</br>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Server is running...</title>
+	<style>
+		body {
+			background: linear-gradient(45deg, #b19cd9, #f5c6e0, #b19cd9, #f5c6e0, #b19cd9);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 3rem;
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			animation-name: breathing;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: ease-in-out;
+		}
+
+		@keyframes gradient {
+			0% {
+				background-color: #b19cd9;
+			}
+			25% {
+				background-color: #f5c6e0;
+			}
+			50% {
+				background-color: #b19cd9;
+			}
+			75% {
+				background-color: #f5c6e0;
+			}
+			100% {
+				background-color: #b19cd9;
+			}
+		}
+		@keyframes breathing {
+			from {
+				font-size: 3rem;
+			}
+			to {
+				font-size: 3.2rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	SERVER IS RUNNING
+</body>
+</html>
+
+
